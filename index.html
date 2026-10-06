@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Állatkert lakói</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/egyedi.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- FŐCÍM -->
+
+      <div class="row">
+        <div class="col-sm-12 kartya mb-3">
+          <div class="mt-2 mb-1 p-5 bg-success text-white rounded">
+            <h1 id="focim">🐾 Állatkert lakói</h1>
+
+            <p class="mb-0">Téma: Állatok az állatkertben</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- BEVEZETŐ -->
+
+      <div class="row mb-2">
+        <div class="col-sm-12">
+          <div class="card">
+            <div class="card-header">
+              Mit érdemes tudni az állatkerti állatokról?
+            </div>
+
+            <div class="card-body">
+              <p>
+                Az állatkertekben különböző földrészekről származó állatokkal
+                találkozhatunk. Az állatokat fajuknak és természetes élőhelyüknek
+                megfelelő körülmények között gondozzák.
+              </p>
+
+              <p>
+                Az állatok életkora és testsúlya fajonként jelentősen eltérhet.
+                Táplálkozásuk is különböző: vannak növényevők, húsevők és
+                mindenevők.
+              </p>
+
+              <p class="mb-0">
+                Egyes állatfajok veszélyeztetettek, ezért az állatkertek a
+                természetvédelmi szemléletformálásban és egyes fajok megőrzésében
+                is szerepet vállalhatnak.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- LISTÁK -->
+
+      <div class="row mb-2">
+        <div class="col-sm-4 kartya">
+          <h2>Élőhelyek</h2>
+
+          <ul class="list-group">
+            <li class="list-group-item">Afrikai szavanna</li>
+
+            <li class="list-group-item">Ázsiai esőerdő</li>
+
+            <li class="list-group-item">Dél-amerikai őserdő</li>
+
+            <li class="list-group-item">Sarki vidék</li>
+
+            <li class="list-group-item">Ausztráliai területek</li>
+          </ul>
+        </div>
+
+        <div class="col-sm-4 kartya mb-2">
+          <h2>Népszerű állatok</h2>
+
+          <ol class="list-group list-group-numbered">
+            <li class="list-group-item">Oroszlán</li>
+
+            <li class="list-group-item">Elefánt</li>
+
+            <li class="list-group-item">Zsiráf</li>
+
+            <li class="list-group-item">Panda</li>
+
+            <li class="list-group-item">Pingvin</li>
+          </ol>
+        </div>
+
+        <div class="col-sm-4 kartya mb-2">
+          <h2>Táplálkozás</h2>
+
+          <ol class="list-group list-group-numbered">
+            <li class="list-group-item">Növényevő</li>
+
+            <li class="list-group-item">Húsevő</li>
+
+            <li class="list-group-item">Mindenevő</li>
+
+            <li class="list-group-item">Gyümölcsevő</li>
+
+            <li class="list-group-item">Rovarokkal táplálkozó</li>
+          </ol>
+        </div>
+      </div>
+
+      <!-- TÁBLÁZAT -->
+
+      <div class="row mb-1" id="allatok">
+        <div class="col-sm-12 kartya mb-3">
+          <h2>Az állatkert néhány lakója</h2>
+
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th>Név</th>
+
+                <th>Életkor</th>
+
+                <th>Súly</th>
+
+                <th>Veszélyeztetett?</th>
+
+                <th>Kedvenc ételek</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>Szimba</td>
+
+                <td>8 év</td>
+
+                <td>190 kg</td>
+
+                <td>Igen</td>
+
+                <td>Marhahús, csirkehús</td>
+              </tr>
+
+              <tr>
+                <td>Lili</td>
+
+                <td>12 év</td>
+
+                <td>3200 kg</td>
+
+                <td>Nem</td>
+
+                <td>Fű, levelek, gyümölcsök</td>
+              </tr>
+
+              <tr>
+                <td>Beni</td>
+
+                <td>6 év</td>
+
+                <td>850 kg</td>
+
+                <td>Igen</td>
+
+                <td>Levelek, ágak</td>
+              </tr>
+
+              <tr>
+                <td>Pötyi</td>
+
+                <td>5 év</td>
+
+                <td>95 kg</td>
+
+                <td>Igen</td>
+
+                <td>Bambusz, sárgarépa</td>
+              </tr>
+
+              <tr>
+                <td>Csőrike</td>
+
+                <td>4 év</td>
+
+                <td>28 kg</td>
+
+                <td>Nem</td>
+
+                <td>Hal, krill</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- ÁLLATOK -->
+
+      <div class="row mb-1">
+        <div class="col-sm-3 col-md-6 col-lg-3 kartya mb-3 h-100">
+          <h2>Oroszlán</h2>
+
+          <div class="card">
+            <div class="card-body">
+              <h3>Szimba</h3>
+
+              <p>
+                Szimba egy 8 éves hím oroszlán. Súlya körülbelül 190 kg.
+              </p>
+
+              <p>
+                <strong>Veszélyeztetett:</strong> Igen
+              </p>
+
+              <p class="mb-0">
+                <strong>Kedvenc ételei:</strong> marhahús, csirkehús
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-3 col-md-6 col-lg-3 kartya mb-3 h-100">
+          <h2>Elefánt</h2>
+
+          <div class="card">
+            <div class="card-body">
+              <h3>Lili</h3>
+
+              <p>
+                Lili egy 12 éves elefánt. Súlya körülbelül 3200 kg.
+              </p>
+
+              <p>
+                <strong>Veszélyeztetett:</strong> Nem
+              </p>
+
+              <p class="mb-0">
+                <strong>Kedvenc ételei:</strong> fű, levelek, gyümölcsök
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-3 col-md-6 col-lg-3 kartya mb-3 h-100">
+          <h2>Zsiráf</h2>
+
+          <div class="card">
+            <div class="card-body">
+              <h3>Beni</h3>
+
+              <p>
+                Beni egy 6 éves zsiráf. Súlya körülbelül 850 kg.
+              </p>
+
+              <p>
+                <strong>Veszélyeztetett:</strong> Igen
+              </p>
+
+              <p class="mb-0">
+                <strong>Kedvenc ételei:</strong> levelek, ágak
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-3 col-md-6 col-lg-3 kartya mb-3 h-100">
+          <h2>Panda</h2>
+
+          <div class="card">
+            <div class="card-body">
+              <h3>Pötyi</h3>
+
+              <p>
+                Pötyi egy 5 éves panda. Súlya körülbelül 95 kg.
+              </p>
+
+              <p>
+                <strong>Veszélyeztetett:</strong> Igen
+              </p>
+
+              <p class="mb-0">
+                <strong>Kedvenc ételei:</strong> bambusz, sárgarépa
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FONTOS TUDNIVALÓK -->
+
+      <div class="row">
+        <div class="col-sm-12 kartya mb-3">
+          <div class="card">
+            <div class="card-header">Amit érdemes megjegyezni</div>
+
+            <div class="card-body">
+              <ul>
+                <li>
+                  Minden állatfajnak sajátos táplálkozási igényei vannak.
+                </li>
+
+                <li>
+                  Az állatok életkora és testsúlya fajonként, illetve egyedenként
+                  eltérhet.
+                </li>
+
+                <li>
+                  A veszélyeztetett fajok védelme fontos természetvédelmi
+                  feladat.
+                </li>
+
+                <li>
+                  Az állatkertekben az állatok gondozása mellett az
+                  ismeretterjesztés is fontos szerepet kap.
+                </li>
+
+                <li>
+                  Egy állat adatai többféle adattípust tartalmazhatnak:
+                  szöveget, számot, logikai értéket és tömböt.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- LÁBLÉC -->
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12 kartya mb-3">
+          <p class="text-center">
+            <b>Az oldalt készítette: </b>
+
+            <i>Gipsz Jakab</i>
+          </p>
+
+          <p style="text-align: center">
+            <span style="font-weight: bold">Készítés dátuma: </span>
+
+            <span class="dolt">2026.10.04.</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
